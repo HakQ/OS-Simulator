@@ -1,0 +1,12 @@
+Author: Qiuqun Wang
+Class Section: 01 
+Project Distributed By: Professor Pavel Shostak
+Project Purpose: Simulation of some functionalities of an Operating System
+
+This project create some simulation of an operating system such as CPU scheduler, memory management, and I/O devices schedulers and queues.
+This project is built with c++ 11 and you could built the executable by typing "make" on the terminal where the the file is located. 
+Also you could remove all the object file and the executable with the command "make cleanall". To just remove the object file, type the command "make clean"
+on the terminal. Some invalid input will cause the program to display an error message and the program will exit, for example if you give a negative ram size
+the program won't appreciate that and the program will exit. The queues are ordered from top to bottom meaning that when the info in the queue are being printed
+out, the highest process will be closest to using the cpu. For the memory table, the highest process being printed out meaning that it has been on the table the longest
+without being used. When a a entry must be deleted from the table, that highest one will be deleted.
