@@ -1,7 +1,6 @@
 # Makefile for OS project
 # Originally written by Stewart Weiss, modified by Qiuqun Wang 
-# This is designed for the first project in CSci 335, Spring 2018
-#
+
 # Type  make to build the executable, which is named project
 # Type make clean to remove all .o files
 # Type make cleanall to remove all .o files and the project1 executable.
