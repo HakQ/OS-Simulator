@@ -1,5 +1,6 @@
 Author: Qiuqun Wang
 Project Purpose: Simulation of some functionalities of an Operating System
+Language: C++ with OOP
 
 This project is a simulation of certain aspect of an operating system such as CPU scheduler, memory management, 
 and I/O devices schedulers and queues.This project is built with c++ 11 and you could built the executable by typing 
